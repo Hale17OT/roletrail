@@ -1,0 +1,850 @@
+{
+  "queries": [
+    "Software Developer",
+    "Backend Developer",
+    "Full Stack Developer",
+    "Laravel Developer",
+    "FastAPI Developer",
+    "React Developer",
+    "Java Spring Developer",
+    "QA Automation Engineer",
+    "Implementation Consultant",
+    "Automation Developer",
+    "Power Platform Developer",
+    "Junior Software Engineer",
+    "Power Apps Developer",
+    "Graduate Software Developer",
+    "Power Automate Developer",
+    "Junior Backend Developer",
+    "Dynamics 365 CE Consultant",
+    "Junior Full Stack Developer",
+    "Dynamics CRM Developer",
+    "Junior Frontend Developer",
+    "Power Platform Consultant",
+    "Junior Python Developer",
+    "Business Applications Analyst",
+    "Junior .NET Developer",
+    "CRM Implementation Consultant",
+    "Junior TypeScript Developer",
+    "Dataverse Developer",
+    "Web Developer",
+    "Power Platform Integration Developer",
+    "Application Developer",
+    "Power Platform ALM",
+    "Junior AI Engineer",
+    "Copilot Studio Developer",
+    "Junior QA Automation Engineer",
+    "Junior Functional Consultant",
+    "Workflow Developer Power Automate",
+    "Application Support Analyst Dynamics 365",
+    "Graduate Business Applications Consultant"
+  ],
+  "jobspy": {
+    "results_per_site": 30,
+    "max_queries_per_run": 6,
+    "regions_per_run": 2,
+    "regions": [
+      "UK",
+      "South Africa",
+      "Germany",
+      "Canada",
+      "USA",
+      "Ireland",
+      "Netherlands",
+      "Japan",
+      "Singapore",
+      "South Korea",
+      "China",
+      "Belgium",
+      "Sweden",
+      "Finland",
+      "Denmark",
+      "Austria"
+    ],
+    "sites": [
+      "indeed",
+      "glassdoor",
+      "zip_recruiter",
+      "linkedin"
+    ],
+    "glassdoor_regions": [
+      "UK",
+      "Germany",
+      "Canada",
+      "USA",
+      "Ireland",
+      "Netherlands"
+    ],
+    "modes": [
+      "remote",
+      "addis",
+      "sponsored"
+    ],
+    "google_status": "unavailable_upstream",
+    "google_note": "Upstream JobSpy reports Google Jobs unavailable. Do not count an empty Google search as successful coverage."
+  },
+  "telegram": {
+    "adapter": "preview",
+    "max_pages": 30,
+    "channels_per_run": 6,
+    "channels": [
+      {
+        "handle": "hahujobs",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "freelance_ethio",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "ethiojobs_official",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "elelanjobs",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "sera7",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "ethio_job_vacancy",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "remoteok",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "devjobs",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "remotejobss",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "dailyremote",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "remote_jobs_channel",
+        "ownership": "needs_verification"
+      },
+      {
+        "handle": "remotejun",
+        "ownership": "needs_verification",
+        "evidence_url": "https://t.me/s/remotejun",
+        "note": "Public channel read over seven days on 2026-11-10. Discovery only; require original employer publication and application source."
+      },
+      {
+        "handle": "jobs_global_startups",
+        "ownership": "needs_verification",
+        "evidence_url": "https://t.me/jobs_global_startups",
+        "note": "Public channel read over seven days on 2026-11-10. Discovery only; require original employer publication and application source."
+      },
+      {
+        "handle": "muyalogy",
+        "ownership": "needs_verification",
+        "evidence_url": "https://t.me/s/muyalogy",
+        "note": "356 public posts read over the seven-day window on 2026-11-10. Reposts remain discovery only."
+      }
+    ]
+  },
+  "feeds": [
+    {
+      "name": "We Work Remotely",
+      "kind": "rss",
+      "url": "https://weworkremotely.com/remote-jobs.rss",
+      "interval_hours": 6
+    },
+    {
+      "name": "Remotive",
+      "kind": "remotive",
+      "url": "https://remotive.com/api/remote-jobs",
+      "interval_hours": 6
+    },
+    {
+      "name": "Remote OK",
+      "kind": "remoteok",
+      "url": "https://remoteok.com/api",
+      "interval_hours": 24,
+      "max_pages": 1
+    },
+    {
+      "name": "Jobicy",
+      "kind": "jobicy",
+      "url": "https://jobicy.com/api/jobs?count=100",
+      "interval_hours": 24,
+      "max_pages": 5
+    },
+    {
+      "name": "Arbeitnow",
+      "kind": "arbeitnow",
+      "url": "https://www.arbeitnow.com/api/job-board-api",
+      "interval_hours": 24,
+      "max_pages": 5
+    },
+    {
+      "name": "Arbeitnow visa sponsorship",
+      "kind": "arbeitnow",
+      "url": "https://www.arbeitnow.com/api/job-board-api?visa_sponsorship=true",
+      "interval_hours": 24,
+      "max_pages": 3
+    },
+    {
+      "name": "Himalayas junior software",
+      "kind": "himalayas_search",
+      "url": "https://himalayas.app/jobs/api/search?q=junior%20software&sort=recent",
+      "interval_hours": 24,
+      "max_pages": 3
+    },
+    {
+      "name": "Himalayas mid-level software",
+      "kind": "himalayas_search",
+      "url": "https://himalayas.app/jobs/api/search?q=mid%20level%20software&sort=recent",
+      "interval_hours": 24,
+      "max_pages": 3
+    },
+    {
+      "name": "Himalayas Power Platform",
+      "kind": "himalayas_search",
+      "url": "https://himalayas.app/jobs/api/search?q=power%20platform&sort=recent",
+      "interval_hours": 24,
+      "max_pages": 3
+    }
+  ],
+  "discovery_pages": [
+    {
+      "name": "HaHuJobs",
+      "url": "https://www.hahu.jobs/",
+      "link_pattern": "/jobs?/|/job/|/vacanc"
+    },
+    {
+      "name": "Ethiojobs",
+      "url": "https://ethiojobs.net/jobs",
+      "link_pattern": "/jobs?/|/job/"
+    },
+    {
+      "name": "Japan Dev",
+      "url": "https://japan-dev.com/jobs",
+      "link_pattern": "/jobs/[^/]+/"
+    },
+    {
+      "name": "TokyoDev",
+      "url": "https://www.tokyodev.com/jobs",
+      "link_pattern": "/companies/.+/jobs/"
+    },
+    {
+      "name": "Working Nomads",
+      "url": "https://www.workingnomads.com/jobs",
+      "link_pattern": "/jobs/.+"
+    }
+  ],
+  "boards": [
+    {
+      "kind": "smartrecruiters",
+      "board": "HitachiSolutions",
+      "company": "Hitachi Solutions",
+      "evidence_url": "https://global.hitachi-solutions.com/about/careers/"
+    },
+    {
+      "kind": "lever",
+      "board": "ttecdigital",
+      "company": "TTEC Digital",
+      "evidence_url": "https://jobs.lever.co/ttecdigital"
+    },
+    {
+      "kind": "greenhouse",
+      "board": "encora10",
+      "company": "Encora",
+      "evidence_url": "https://job-boards.greenhouse.io/encora10"
+    },
+    {
+      "kind": "ashby",
+      "board": "mindmoves",
+      "company": "Mind Moves",
+      "evidence_url": "https://jobs.ashbyhq.com/mindmoves"
+    },
+    {
+      "kind": "greenhouse",
+      "board": "gitlab",
+      "company": "GitLab",
+      "evidence_url": "https://job-boards.greenhouse.io/gitlab",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "canonical",
+      "company": "Canonical",
+      "evidence_url": "https://job-boards.greenhouse.io/canonical",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "automatticcareers",
+      "company": "Automattic",
+      "evidence_url": "https://job-boards.greenhouse.io/automatticcareers",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "appdirect",
+      "company": "AppDirect",
+      "evidence_url": "https://job-boards.greenhouse.io/appdirect",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "twilio",
+      "company": "Twilio",
+      "evidence_url": "https://job-boards.greenhouse.io/twilio",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "mozilla",
+      "company": "Mozilla",
+      "evidence_url": "https://job-boards.greenhouse.io/mozilla",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "fivetran",
+      "company": "Fivetran",
+      "evidence_url": "https://job-boards.greenhouse.io/fivetran",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "affirm",
+      "company": "Affirm",
+      "evidence_url": "https://job-boards.greenhouse.io/affirm",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "remotepeople",
+      "company": "Remote People",
+      "evidence_url": "https://job-boards.greenhouse.io/remotepeople",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "supabase",
+      "company": "Supabase",
+      "evidence_url": "https://jobs.ashbyhq.com/supabase",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "coder",
+      "company": "Coder",
+      "evidence_url": "https://jobs.ashbyhq.com/coder",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "andela",
+      "company": "Andela",
+      "evidence_url": "https://jobs.ashbyhq.com/andela",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "g2i",
+      "company": "G2i",
+      "evidence_url": "https://jobs.ashbyhq.com/g2i",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "elevenlabs",
+      "company": "ElevenLabs",
+      "evidence_url": "https://jobs.ashbyhq.com/elevenlabs",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "transficc",
+      "company": "TransFICC",
+      "evidence_url": "https://jobs.ashbyhq.com/transficc",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "canals",
+      "company": "Canals",
+      "evidence_url": "https://jobs.ashbyhq.com/canals",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "meridianlink",
+      "company": "MeridianLink",
+      "evidence_url": "https://jobs.ashbyhq.com/meridianlink",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "docplanner",
+      "company": "Docplanner",
+      "evidence_url": "https://jobs.ashbyhq.com/docplanner",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "hirehangar",
+      "company": "Hire Hangar",
+      "evidence_url": "https://jobs.ashbyhq.com/hirehangar",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "braintrust",
+      "company": "Braintrust",
+      "evidence_url": "https://jobs.ashbyhq.com/braintrust",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "livekit",
+      "company": "LiveKit",
+      "evidence_url": "https://jobs.ashbyhq.com/livekit",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "langchain",
+      "company": "LangChain",
+      "evidence_url": "https://jobs.ashbyhq.com/langchain",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "ashby",
+      "board": "openrouter",
+      "company": "OpenRouter",
+      "evidence_url": "https://jobs.ashbyhq.com/openrouter",
+      "verification_note": "Public employer ATS API inspected during the 2026-11-10 expanded sweep; each vacancy requires current policy and source evidence."
+    },
+    {
+      "kind": "workable",
+      "board": "robusta",
+      "company": "Robusta Technology Group",
+      "evidence_url": "https://apply.workable.com/robusta/",
+      "verification_note": "Public account jobs API inspected on 2026-11-10; use published_on, never created_at."
+    },
+    {
+      "kind": "workable",
+      "board": "valsoft-corp",
+      "company": "Valsoft Corporation",
+      "evidence_url": "https://apply.workable.com/valsoft-corp/",
+      "verification_note": "Public account jobs API inspected on 2026-11-10; use published_on, never created_at."
+    },
+    {
+      "kind": "workable",
+      "board": "european-dynamics",
+      "company": "EUROPEAN DYNAMICS",
+      "evidence_url": "https://apply.workable.com/european-dynamics/",
+      "verification_note": "Public account jobs API inspected on 2026-11-10; use published_on, never created_at."
+    },
+    {
+      "kind": "workable",
+      "board": "crewbloom",
+      "company": "CrewBloom",
+      "evidence_url": "https://apply.workable.com/crewbloom/",
+      "verification_note": "Public account jobs API inspected on 2026-11-10; use published_on, never created_at."
+    },
+    {
+      "kind": "workable",
+      "board": "devpro",
+      "company": "Dev.Pro",
+      "evidence_url": "https://apply.workable.com/devpro/",
+      "verification_note": "Live public Workable account API and official OP02304 vacancy inspected on 2026-11-10."
+    },
+    {
+      "kind": "lever",
+      "board": "insiderone",
+      "company": "Insider One",
+      "evidence_url": "https://jobs.lever.co/insiderone"
+    },
+    {
+      "kind": "workable",
+      "board": "ajaia",
+      "company": "AJAIA",
+      "evidence_url": "https://ajaia.ai/careers",
+      "verification_note": "Employer careers page links the live Workable board; publication and role requirements inspected 2026-11-10."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "stripe",
+      "company": "Stripe",
+      "evidence_url": "https://job-boards.greenhouse.io/stripe",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "smartsheet",
+      "company": "Smartsheet",
+      "evidence_url": "https://job-boards.greenhouse.io/smartsheet",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "intercom",
+      "company": "Intercom",
+      "evidence_url": "https://job-boards.greenhouse.io/intercom",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "dropbox",
+      "company": "Dropbox",
+      "evidence_url": "https://job-boards.greenhouse.io/dropbox",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "asana",
+      "company": "Asana",
+      "evidence_url": "https://job-boards.greenhouse.io/asana",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "reddit",
+      "company": "Reddit",
+      "evidence_url": "https://job-boards.greenhouse.io/reddit",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "coursera",
+      "company": "Coursera",
+      "evidence_url": "https://job-boards.greenhouse.io/coursera",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "udemy",
+      "company": "Udemy",
+      "evidence_url": "https://job-boards.greenhouse.io/udemy",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "recordedfuture",
+      "company": "Recorded Future",
+      "evidence_url": "https://job-boards.greenhouse.io/recordedfuture",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "cohere",
+      "company": "Cohere",
+      "evidence_url": "https://jobs.ashbyhq.com/cohere",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "deepl",
+      "company": "DeepL",
+      "evidence_url": "https://jobs.ashbyhq.com/deepl",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "workos",
+      "company": "WorkOS",
+      "evidence_url": "https://jobs.ashbyhq.com/workos",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "ashby",
+      "company": "Ashby",
+      "evidence_url": "https://jobs.ashbyhq.com/ashby",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "tremendous",
+      "company": "Tremendous",
+      "evidence_url": "https://jobs.ashbyhq.com/tremendous",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "ashby",
+      "board": "gitbook",
+      "company": "GitBook",
+      "evidence_url": "https://jobs.ashbyhq.com/gitbook",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; no current role is recommended without its own evidence and criteria audit."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "softwaremind",
+      "company": "Software Mind",
+      "evidence_url": "https://careers.smartrecruiters.com/softwaremind",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Sportradar",
+      "company": "Sportradar",
+      "evidence_url": "https://careers.smartrecruiters.com/Sportradar",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Experian",
+      "company": "Experian",
+      "evidence_url": "https://careers.smartrecruiters.com/Experian",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Nagarro1",
+      "company": "Nagarro",
+      "evidence_url": "https://careers.smartrecruiters.com/Nagarro1",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Endava",
+      "company": "Endava",
+      "evidence_url": "https://careers.smartrecruiters.com/Endava",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Sutherland",
+      "company": "Sutherland",
+      "evidence_url": "https://careers.smartrecruiters.com/Sutherland",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Deloitte6",
+      "company": "Deloitte",
+      "evidence_url": "https://careers.smartrecruiters.com/Deloitte6",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "EcoVadis",
+      "company": "EcoVadis",
+      "evidence_url": "https://careers.smartrecruiters.com/EcoVadis",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Canva",
+      "company": "Canva",
+      "evidence_url": "https://careers.smartrecruiters.com/Canva",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Wise",
+      "company": "Wise",
+      "evidence_url": "https://careers.smartrecruiters.com/Wise",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "NielsenIQ",
+      "company": "NielsenIQ",
+      "evidence_url": "https://careers.smartrecruiters.com/NielsenIQ",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "InformaGroupPlc",
+      "company": "Informa Group Plc.",
+      "evidence_url": "https://careers.smartrecruiters.com/InformaGroupPlc",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Ubisoft2",
+      "company": "Ubisoft",
+      "evidence_url": "https://careers.smartrecruiters.com/Ubisoft2",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "ALTEN",
+      "company": "ALTEN",
+      "evidence_url": "https://careers.smartrecruiters.com/ALTEN",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Tieto2",
+      "company": "Tieto",
+      "evidence_url": "https://careers.smartrecruiters.com/Tieto2",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Nexthink",
+      "company": "Nexthink",
+      "evidence_url": "https://careers.smartrecruiters.com/Nexthink",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "SikaAG",
+      "company": "Sika AG",
+      "evidence_url": "https://careers.smartrecruiters.com/SikaAG",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Devoteam",
+      "company": "Devoteam",
+      "evidence_url": "https://careers.smartrecruiters.com/Devoteam",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "smartrecruiters",
+      "board": "Version1",
+      "company": "Version 1",
+      "evidence_url": "https://careers.smartrecruiters.com/Version1",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "workable",
+      "board": "weekday-1",
+      "company": "Weekday AI",
+      "evidence_url": "https://apply.workable.com/weekday-1",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "workable",
+      "board": "humbility",
+      "company": "Humbility",
+      "evidence_url": "https://apply.workable.com/humbility",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "lever",
+      "board": "provectus",
+      "company": "Provectus",
+      "evidence_url": "https://jobs.lever.co/provectus",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "keyfactorinc",
+      "company": "Keyfactor",
+      "evidence_url": "https://job-boards.greenhouse.io/keyfactorinc",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "quo",
+      "company": "Quo",
+      "evidence_url": "https://jobs.ashbyhq.com/quo",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "apify",
+      "company": "Apify",
+      "evidence_url": "https://jobs.ashbyhq.com/apify",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "clerk",
+      "company": "Clerk",
+      "evidence_url": "https://jobs.ashbyhq.com/clerk",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "inngest",
+      "company": "Inngest",
+      "evidence_url": "https://jobs.ashbyhq.com/inngest",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "linear",
+      "company": "Linear",
+      "evidence_url": "https://jobs.ashbyhq.com/linear",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "n8n",
+      "company": "n8n",
+      "evidence_url": "https://jobs.ashbyhq.com/n8n",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "omni",
+      "company": "Omni",
+      "evidence_url": "https://jobs.ashbyhq.com/omni",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "ashby",
+      "board": "posthog",
+      "company": "PostHog",
+      "evidence_url": "https://jobs.ashbyhq.com/posthog",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "grafanalabs",
+      "company": "Grafana Labs",
+      "evidence_url": "https://job-boards.greenhouse.io/grafanalabs",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "mattermost",
+      "company": "Mattermost",
+      "evidence_url": "https://job-boards.greenhouse.io/mattermost",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "planetscale",
+      "company": "PlanetScale",
+      "evidence_url": "https://job-boards.greenhouse.io/planetscale",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    },
+    {
+      "kind": "greenhouse",
+      "board": "sourcegraph91",
+      "company": "Sourcegraph",
+      "evidence_url": "https://job-boards.greenhouse.io/sourcegraph91",
+      "verification_note": "Public employer ATS API successfully read on 2026-11-10; individual jobs require original publication, geography and qualification checks."
+    }
+  ],
+  "employers_per_run": 10,
+  "request_budget": 250,
+  "verification_budget": 40,
+  "default_search_profile": "responsibility-first-active-30-day",
+  "people_posts": {
+    "enabled": true,
+    "max_queries_per_run": 3,
+    "max_results_per_query": 5,
+    "queries": [
+      "site:linkedin.com/posts/ \"I am hiring\" \"Power Platform\" remote",
+      "site:linkedin.com/posts/ \"hiring\" \"Power Apps\" consultant remote",
+      "site:linkedin.com/posts/ \"hiring\" \"software developer\" Ethiopia",
+      "site:linkedin.com/posts/ \"hiring\" \"Laravel\" remote",
+      "site:linkedin.com/posts/ \"hiring\" \"FastAPI\" remote",
+      "site:linkedin.com/posts/ \"hiring\" \"junior\" \"visa sponsorship\""
+    ],
+    "posts": [],
+    "note": "Public search-index discovery and public individual posts only. Retain author, exact publication time, recruiter/client disclosure and application route. No DM/comment/application sent. Access restrictions are reported, never bypassed.",
+    "max_posts_per_run": 12
+  }
+}

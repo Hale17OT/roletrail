@@ -1,0 +1,2 @@
+-r requirements-discovery.txt
+Telethon==1.45.0

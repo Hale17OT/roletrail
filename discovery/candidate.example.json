@@ -1,0 +1,23 @@
+{
+  "name": "Example Applicant",
+  "email": "applicant@example.com",
+  "phone": "+1 202 555 0100",
+  "github": "https://example.com/portfolio",
+  "degree": "Your verified degree (edit locally)",
+  "certification": "Your verified certification (or leave blank)",
+  "projects": [
+    {
+      "item": "Verified application delivery",
+      "evidence": "Replace with your own documented work."
+    },
+    {
+      "item": "Verified integrations",
+      "evidence": "Replace with your own documented API/integration work."
+    },
+    {
+      "item": "Verified quality practices",
+      "evidence": "Replace with your own documented testing work."
+    }
+  ],
+  "notice": "SYNTHETIC SETUP TEMPLATE. Configure your own truthful evidence and CVs before discovery or applications."
+}

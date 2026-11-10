@@ -1,0 +1,24 @@
+{
+  "name": "roletrail",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/domain/*.test.mjs",
+    "dev": "vite",
+    "build": "vite build && node scripts/stamp-build.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.70.0",
+    "reka-ui": "^2.11.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.3.6"
+  }
+}

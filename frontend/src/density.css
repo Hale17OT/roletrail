@@ -1,0 +1,52 @@
+/* Compact desktop workspace; explicit component sizes instead of page zoom. */
+:root { font-size:13px; line-height:1.5; }
+h1 { font-size:28px; line-height:1.2; letter-spacing:-.7px; }
+h2 { font-size:18px; line-height:1.35; }
+.page-subtitle { font-size:13px; margin-top:8px; }
+.page-header { margin-bottom:24px; gap:16px; }
+.section-heading { margin-bottom:16px; }
+.opportunity-audit { padding:12px 16px; margin-bottom:16px; border-radius:8px; }
+.job-main h2 { font-size:15px; margin-bottom:4px; }
+.title-link { line-height:1.4; }
+.tags { margin-top:8px; gap:4px; }
+.tags span { font-size:11px; padding:2px 6px; }
+.company,.job-region,.salary { font-size:12px; }
+.job-facts .date,.context-note { font-size:11px; }
+.employer-monogram { width:32px; height:32px; font-size:15px; }
+.panel { padding:20px; }
+.panel h2,.dossier-body h3 { font-size:17px; }
+.dossier-header { padding:16px 24px; }
+.dossier-header h2 { font-size:20px; line-height:1.3; }
+.dossier-summary,.dossier-body { padding:16px 24px; }
+.dossier-actions { padding:12px 24px; gap:8px; }
+.dossier-tabs button { font-size:12px; }
+.select-content,.select-item { font-size:13px; }
+.close-button { display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; padding:0; gap:0; }
+.close-button svg { flex-shrink:0; }
+@media(min-width:768px) {
+  button,.button { min-height:34px; padding:6px 12px; font-size:12px; }
+  input,select,.select-trigger { min-height:36px; height:36px; padding:6px 10px; font-size:12px; }
+  textarea { font-size:13px; line-height:1.6; }
+  .sidebar { padding:24px 12px; }
+  .brand { font-size:20px; margin:0 8px 24px; gap:8px; }
+  .brand-mark { width:32px; height:36px; font-size:22px; }
+  .sidebar nav { gap:4px; }
+  .sidebar nav button { min-height:38px; padding:8px 10px; font-size:12px; }
+  main { padding:28px 32px 20px; }
+  .filters { padding:12px 16px; gap:12px; margin-bottom:16px; }
+  .filters .sort-with-clear>.clear-filters { min-height:36px; height:36px; }
+  .segments button { min-height:34px; padding:6px 12px; font-size:12px; }
+  .job-row { padding:16px 20px; gap:16px; }
+  .title-link { min-height:0; padding:0; font-size:inherit; }
+  .select-item { min-height:32px; padding:6px 10px; }
+  .close-button { min-height:32px; width:32px; height:32px; padding:4px; }
+}
+@media(max-width:767px) {
+  body { min-width:0; }
+  .close-button { width:44px; height:44px; padding:0; }
+  button,.button,.select-trigger,.select-item { min-height:44px; }
+  h1 { font-size:24px; }
+  .job-row { padding:16px; }
+  .filters .sort-with-clear>.clear-filters { min-height:44px; }
+  .dossier-header,.dossier-body,.dossier-summary,.dossier-actions { padding:16px; }
+}

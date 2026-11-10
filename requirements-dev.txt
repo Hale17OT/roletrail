@@ -1,2 +1,3 @@
 -r requirements-discovery.txt
+-r requirements-telegram.txt
 pytest>=8,<9
